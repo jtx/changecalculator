@@ -35,7 +35,7 @@ class ChangeGenerator
             return [];
         }
 
-        foreach($this->coins as $denomination => $cost) {
+        foreach ($this->coins as $denomination => $cost) {
             if ($cost > $changeCents) {
                 continue;
             }
